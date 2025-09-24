@@ -1,1 +1,37 @@
+body {
+    background-color: #f0f8ff; /* light blue */
+    color: #000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    background-color: #007acc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+
+nav, .sections, .products {
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+nav a, .sections a, .products a {
+    display: inline-block;
+    background-color: #e6f2ff;
+    color: #000;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #007acc;
+}
+
+nav a:hover, .sections a:hover, .products a:hover {
+    background-color: #cce6ff;
+    color: #003366;
+}
